@@ -14,7 +14,7 @@ class battery(commands.Cog):
         Updates the bot's status with the phone's battery percentage
         by querying a Flask API.
         """
-        flask_api_url = "http://10.0.0.157:5000/battery"  # Replace with your Flask API URL
+        flask_api_url = "http://127.0.0.1:5000/battery"  # Replace with your Flask API URL
         while True:
             await asyncio.sleep(5)  # Wait for the bot to fully connect to Discord
             logging.info("Bot connected to Discord, starting battery status update loop.")
