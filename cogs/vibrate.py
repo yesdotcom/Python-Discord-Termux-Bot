@@ -19,7 +19,7 @@ class vibrate(commands.Cog):
         if duration > 3:
             await interaction.followup.send("Vibration duration cannot exceed 3 seconds.")
             return
-        flask_api_url = "http://10.0.0.157:5000/vibrate"  # Replace with your Flask API URL
+        flask_api_url = "http://127.0.0.1:5000/vibrate"  # Replace with your Flask API URL
         async with aiohttp.ClientSession() as session:
             try:
                 logging.info(f"Sending POST request to Flask API with duration: {duration}")
