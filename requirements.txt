@@ -5,3 +5,4 @@ discord.py
 pip
 python-dotenv
 tracemalloc
+logging
