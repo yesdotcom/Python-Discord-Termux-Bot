@@ -1,0 +1,6 @@
+aiohttp
+asyncio
+discord
+discord.py
+pip
+python-dotenv

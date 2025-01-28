@@ -1,0 +1,884 @@
+2025-01-28 14:56:03,326 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-28 14:56:03,329 - INFO - logging in using static token
+2025-01-28 14:56:04,873 - INFO - Shard ID None has connected to Gateway (Session ID: bc4f121ada52d641de791b304a1616dc).
+2025-01-28 14:56:07,933 - ERROR - Failed to load cog: cat | ERROR: cannot access local variable 'logging' where it is not associated with a value
+Traceback (most recent call last):
+  File "c:\Users\hofme\OneDrive\Documents\VS_code\Termux_bot_v1.0\main.py", line 50, in on_ready
+    await self.add_cog(cogClass(self, currentDir))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hofme\OneDrive\Documents\VS_code\Termux_bot_v1.0\cogs\cat.py", line 9, in __init__
+    logging = logging.getLogger('main.py')
+              ^^^^^^^
+UnboundLocalError: cannot access local variable 'logging' where it is not associated with a value
+2025-01-28 14:56:07,936 - ERROR - Failed to load cog: bat | ERROR: cannot access local variable 'logging' where it is not associated with a value
+Traceback (most recent call last):
+  File "c:\Users\hofme\OneDrive\Documents\VS_code\Termux_bot_v1.0\main.py", line 50, in on_ready
+    await self.add_cog(cogClass(self, currentDir))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hofme\OneDrive\Documents\VS_code\Termux_bot_v1.0\cogs\bat.py", line 8, in __init__
+    logging = logging.getLogger('main.py')
+              ^^^^^^^
+UnboundLocalError: cannot access local variable 'logging' where it is not associated with a value
+2025-01-28 14:56:10,917 - INFO - Slash commands synced.
+2025-01-28 14:56:47,876 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-28 14:56:47,878 - INFO - logging in using static token
+2025-01-28 14:56:49,311 - INFO - Shard ID None has connected to Gateway (Session ID: 52ea2fe502fa60118c715bb44d98c9cf).
+2025-01-28 14:56:52,461 - ERROR - Failed to load cog: cat | ERROR: cannot access local variable 'logging' where it is not associated with a value
+Traceback (most recent call last):
+  File "c:\Users\hofme\OneDrive\Documents\VS_code\Termux_bot_v1.0\main.py", line 50, in on_ready
+    await self.add_cog(cogClass(self, currentDir))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hofme\OneDrive\Documents\VS_code\Termux_bot_v1.0\cogs\cat.py", line 10, in __init__
+    logging = logging.getLogger('main.py')
+              ^^^^^^^
+UnboundLocalError: cannot access local variable 'logging' where it is not associated with a value
+2025-01-28 14:56:52,464 - INFO - Successfully loaded cog: bat
+2025-01-28 14:56:52,860 - INFO - Slash commands synced.
+2025-01-28 14:57:11,142 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-28 14:57:11,145 - INFO - logging in using static token
+2025-01-28 14:57:12,658 - INFO - Shard ID None has connected to Gateway (Session ID: bf3378617b4297d34703db32bc62b5f3).
+2025-01-28 14:57:15,727 - INFO - Successfully loaded cog: cat
+2025-01-28 14:57:15,727 - INFO - Successfully loaded cog: bat
+2025-01-28 14:57:52,826 - INFO - Slash commands synced.
+2025-01-28 14:58:30,599 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-28 14:58:30,604 - INFO - logging in using static token
+2025-01-28 14:58:32,027 - INFO - Shard ID None has connected to Gateway (Session ID: 45be36fb085addb77b9433ad644422db).
+2025-01-28 14:58:35,465 - INFO - Successfully loaded cog: cat
+2025-01-28 14:58:35,465 - INFO - Successfully loaded cog: bat
+2025-01-28 14:58:35,794 - INFO - Slash commands synced.
+2025-01-28 15:01:51,809 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-28 15:01:51,813 - INFO - logging in using static token
+2025-01-28 15:01:53,351 - INFO - Shard ID None has connected to Gateway (Session ID: 1865f09f54b03969960225a627f9f7a7).
+2025-01-28 15:01:56,573 - INFO - Successfully loaded cog: cat
+2025-01-28 15:01:56,573 - INFO - Successfully loaded cog: bat
+2025-01-28 15:01:57,048 - INFO - Slash commands synced.
+2025-01-28 15:02:01,564 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:02:01,564 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:02:04,662 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:02:04,671 - INFO - Battery percentage fetched: 29%
+2025-01-28 15:02:04,671 - ERROR - An error occurred while updating bot status: 'MyBot' object has no attribute 'bot'
+2025-01-28 15:02:09,680 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:02:09,680 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:02:11,719 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:02:11,728 - INFO - Battery percentage fetched: 29%
+2025-01-28 15:02:11,729 - ERROR - An error occurred while updating bot status: 'MyBot' object has no attribute 'bot'
+2025-01-28 15:02:16,742 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:02:16,742 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:02:18,855 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:02:18,867 - INFO - Battery percentage fetched: 29%
+2025-01-28 15:02:18,867 - ERROR - An error occurred while updating bot status: 'MyBot' object has no attribute 'bot'
+2025-01-28 15:02:23,879 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:02:23,879 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:02:25,933 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:02:25,942 - INFO - Battery percentage fetched: 29%
+2025-01-28 15:02:25,942 - ERROR - An error occurred while updating bot status: 'MyBot' object has no attribute 'bot'
+2025-01-28 15:02:30,952 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:02:30,952 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:02:33,024 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:02:33,033 - INFO - Battery percentage fetched: 29%
+2025-01-28 15:02:33,034 - ERROR - An error occurred while updating bot status: 'MyBot' object has no attribute 'bot'
+2025-01-28 15:02:38,037 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:02:38,037 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:02:39,992 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:02:40,001 - INFO - Battery percentage fetched: 29%
+2025-01-28 15:02:40,002 - ERROR - An error occurred while updating bot status: 'MyBot' object has no attribute 'bot'
+2025-01-28 15:03:00,038 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-28 15:03:00,043 - INFO - logging in using static token
+2025-01-28 15:03:01,480 - INFO - Shard ID None has connected to Gateway (Session ID: 4b624ff36d6b4ac7fd8a4569b3181bde).
+2025-01-28 15:03:04,487 - INFO - Successfully loaded cog: cat
+2025-01-28 15:03:04,488 - INFO - Successfully loaded cog: bat
+2025-01-28 15:03:04,823 - INFO - Slash commands synced.
+2025-01-28 15:03:09,500 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:03:09,500 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:03:11,295 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:03:11,304 - INFO - Battery percentage fetched: 29%
+2025-01-28 15:03:11,304 - ERROR - An error occurred while updating bot status: 'MyBot' object has no attribute 'bot'
+2025-01-28 15:03:16,316 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:03:16,316 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:03:18,355 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:03:18,367 - INFO - Battery percentage fetched: 29%
+2025-01-28 15:03:18,368 - ERROR - An error occurred while updating bot status: 'MyBot' object has no attribute 'bot'
+2025-01-28 15:03:52,639 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-28 15:03:52,642 - INFO - logging in using static token
+2025-01-28 15:03:54,103 - INFO - Shard ID None has connected to Gateway (Session ID: 209570186137c3c52e9573961b51777f).
+2025-01-28 15:03:57,150 - INFO - Successfully loaded cog: cat
+2025-01-28 15:03:57,151 - INFO - Successfully loaded cog: bat
+2025-01-28 15:03:57,506 - INFO - Slash commands synced.
+2025-01-28 15:04:02,155 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<battery.bat_cog() done, defined at c:\Users\hofme\OneDrive\Documents\VS_code\Termux_bot_v1.0\cogs\bat.py:10> exception=AttributeError("'MyBot' object has no attribute 'logger'")>
+Traceback (most recent call last):
+  File "c:\Users\hofme\OneDrive\Documents\VS_code\Termux_bot_v1.0\cogs\bat.py", line 18, in bat_cog
+    self.logger.info("Bot connected to Discord, starting battery status update loop.")
+    ^^^^^^^^^^^
+AttributeError: 'MyBot' object has no attribute 'logger'
+2025-01-28 15:05:33,265 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-28 15:05:33,270 - INFO - logging in using static token
+2025-01-28 15:05:34,731 - INFO - Shard ID None has connected to Gateway (Session ID: 05514ca237d1b5f0dd0aca24578c9307).
+2025-01-28 15:05:37,802 - INFO - Successfully loaded cog: cat
+2025-01-28 15:05:37,803 - INFO - Successfully loaded cog: bat
+2025-01-28 15:05:38,120 - INFO - Slash commands synced.
+2025-01-28 15:05:42,817 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<battery.bat_cog() done, defined at c:\Users\hofme\OneDrive\Documents\VS_code\Termux_bot_v1.0\cogs\bat.py:11> exception=AttributeError("'MyBot' object has no attribute 'logger'")>
+Traceback (most recent call last):
+  File "c:\Users\hofme\OneDrive\Documents\VS_code\Termux_bot_v1.0\cogs\bat.py", line 19, in bat_cog
+    self.logger.info("Bot connected to Discord, starting battery status update loop.")
+    ^^^^^^^^^^^
+AttributeError: 'MyBot' object has no attribute 'logger'
+2025-01-28 15:05:53,685 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-28 15:05:53,688 - INFO - logging in using static token
+2025-01-28 15:05:55,122 - INFO - Shard ID None has connected to Gateway (Session ID: 2cb30fcbec46b041eb02b0e274dc3b4a).
+2025-01-28 15:05:58,146 - INFO - Successfully loaded cog: cat
+2025-01-28 15:05:58,148 - INFO - Successfully loaded cog: bat
+2025-01-28 15:06:03,157 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:06:03,157 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:06:07,757 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:06:07,767 - INFO - Battery percentage fetched: 30%
+2025-01-28 15:06:07,768 - ERROR - An error occurred while updating bot status: 'MyBot' object has no attribute 'bot'
+2025-01-28 15:06:12,779 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:06:12,779 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:07:54,426 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-28 15:07:54,431 - INFO - logging in using static token
+2025-01-28 15:07:55,875 - INFO - Shard ID None has connected to Gateway (Session ID: 514897a0b48dab7cbaecf78dae67b531).
+2025-01-28 15:07:58,236 - INFO - Successfully loaded cog: cat
+2025-01-28 15:07:58,237 - INFO - Successfully loaded cog: bat
+2025-01-28 15:07:58,593 - INFO - Slash commands synced.
+2025-01-28 15:08:03,264 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:08:03,265 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:08:05,993 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:08:11,005 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:08:11,005 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:08:13,673 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:10:19,966 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-28 15:10:19,969 - INFO - logging in using static token
+2025-01-28 15:10:21,545 - INFO - Shard ID None has connected to Gateway (Session ID: bfa47121e134524d38ac80df87787f84).
+2025-01-28 15:10:23,921 - INFO - Successfully loaded cog: cat
+2025-01-28 15:10:23,922 - INFO - Successfully loaded cog: bat
+2025-01-28 15:10:24,254 - INFO - Slash commands synced.
+2025-01-28 15:10:28,930 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:10:28,931 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:10:31,664 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:10:31,673 - INFO - Battery percentage fetched: 30%
+2025-01-28 15:10:31,674 - ERROR - An error occurred while updating bot status: 'MyBot' object has no attribute 'bot'
+2025-01-28 15:10:36,700 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:10:36,701 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:10:38,551 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:10:38,561 - INFO - Battery percentage fetched: 30%
+2025-01-28 15:10:38,561 - ERROR - An error occurred while updating bot status: 'MyBot' object has no attribute 'bot'
+2025-01-28 15:12:52,490 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-28 15:12:52,495 - INFO - logging in using static token
+2025-01-28 15:12:54,001 - INFO - Shard ID None has connected to Gateway (Session ID: e7749415ec536d4fc1e7aa1e8944794f).
+2025-01-28 15:12:56,336 - INFO - Successfully loaded cog: cat
+2025-01-28 15:12:56,337 - INFO - Successfully loaded cog: bat
+2025-01-28 15:12:56,805 - INFO - Slash commands synced.
+2025-01-28 15:13:01,337 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:13:01,337 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:13:04,666 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:13:04,675 - INFO - Battery percentage fetched: 31%
+2025-01-28 15:13:04,676 - INFO - Bot status updated with new battery percentage.
+2025-01-28 15:14:09,684 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:14:09,685 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:14:11,473 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:14:11,484 - INFO - Battery percentage fetched: 31%
+2025-01-28 15:14:11,485 - INFO - Bot status updated with new battery percentage.
+2025-01-28 15:15:16,498 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:15:16,499 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:15:18,463 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:15:18,472 - INFO - Battery percentage fetched: 31%
+2025-01-28 15:15:18,473 - INFO - Bot status updated with new battery percentage.
+2025-01-28 15:16:23,478 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:16:23,478 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:16:25,546 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:16:25,556 - INFO - Battery percentage fetched: 31%
+2025-01-28 15:16:25,557 - INFO - Bot status updated with new battery percentage.
+2025-01-28 15:17:30,570 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:17:30,571 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:17:32,519 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:17:32,528 - INFO - Battery percentage fetched: 31%
+2025-01-28 15:17:32,528 - INFO - Bot status updated with new battery percentage.
+2025-01-28 15:18:37,530 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:18:37,531 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:18:39,372 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:18:39,382 - INFO - Battery percentage fetched: 32%
+2025-01-28 15:18:39,382 - INFO - Bot status updated with new battery percentage.
+2025-01-28 15:19:44,408 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:19:44,408 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:19:47,309 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:19:52,323 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:19:52,323 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:19:55,194 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:20:00,205 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:20:00,206 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:20:02,873 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:20:07,884 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:20:07,884 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:20:10,244 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:20:15,252 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:20:15,252 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:20:17,517 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:20:22,522 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:20:22,522 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:20:24,886 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:20:29,891 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:20:29,891 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:20:32,161 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:20:37,167 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:20:37,167 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:20:39,634 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:20:44,636 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:20:44,636 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:20:46,908 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:20:51,919 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:20:51,919 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:20:54,378 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:20:59,381 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:20:59,381 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:21:01,753 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:21:06,763 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:21:06,763 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:21:09,019 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:21:14,026 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:21:14,026 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:21:16,293 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:21:21,300 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:21:21,300 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:21:23,461 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:21:28,478 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:21:28,478 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:21:30,834 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:21:35,849 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:21:35,850 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:21:38,208 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:21:43,216 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:21:43,216 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:21:45,784 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:21:50,800 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:21:50,800 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:21:53,183 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:21:58,186 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:21:58,186 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:22:00,533 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:22:05,541 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:22:05,541 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:22:07,698 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:22:12,710 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:22:12,710 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:22:15,098 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:22:20,104 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:22:20,104 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:22:22,154 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:22:27,164 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:22:27,164 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:22:29,203 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:22:34,208 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:22:34,208 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:22:36,883 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:22:41,899 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:22:41,899 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:22:44,972 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:22:49,987 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:22:49,987 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:22:52,351 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:22:57,362 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:22:57,362 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:22:59,923 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:23:04,929 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:23:04,929 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:23:07,501 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:23:12,520 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:23:12,520 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:23:15,488 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:23:20,493 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:23:20,493 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:23:23,167 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:23:28,168 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:23:28,168 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:23:30,199 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:23:30,210 - INFO - Battery percentage fetched: 32%
+2025-01-28 15:23:30,211 - INFO - Bot status updated with new battery percentage.
+2025-01-28 15:24:35,226 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:24:35,228 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:24:37,053 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:24:37,062 - INFO - Battery percentage fetched: 33%
+2025-01-28 15:24:37,063 - INFO - Bot status updated with new battery percentage.
+2025-01-28 15:25:42,093 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:25:42,093 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:25:44,002 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:25:44,011 - INFO - Battery percentage fetched: 33%
+2025-01-28 15:25:44,012 - INFO - Bot status updated with new battery percentage.
+2025-01-28 15:26:22,221 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-28 15:26:22,224 - INFO - logging in using static token
+2025-01-28 15:26:23,649 - INFO - Shard ID None has connected to Gateway (Session ID: 1408df4b5e33dcc5ccd64f99e380264e).
+2025-01-28 15:26:26,004 - INFO - Successfully loaded cog: cat
+2025-01-28 15:26:26,006 - INFO - Successfully loaded cog: bat
+2025-01-28 15:26:26,331 - INFO - Slash commands synced.
+2025-01-28 15:26:31,010 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:26:31,010 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:26:32,812 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:26:32,821 - INFO - Battery percentage fetched: 33%
+2025-01-28 15:26:32,822 - INFO - Bot status updated with new battery percentage.
+2025-01-28 15:27:37,830 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:27:37,833 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:27:39,829 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:27:39,838 - INFO - Battery percentage fetched: 33%
+2025-01-28 15:27:39,839 - INFO - Bot status updated with new battery percentage.
+2025-01-28 15:28:44,856 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:28:44,856 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:28:46,685 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:28:46,694 - INFO - Battery percentage fetched: 33%
+2025-01-28 15:28:46,694 - INFO - Bot status updated with new battery percentage.
+2025-01-28 15:29:51,698 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:29:51,698 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:29:53,770 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:29:53,780 - INFO - Battery percentage fetched: 34%
+2025-01-28 15:29:53,781 - INFO - Bot status updated with new battery percentage.
+2025-01-28 15:30:08,473 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-28 15:30:08,476 - INFO - logging in using static token
+2025-01-28 15:30:10,487 - INFO - Shard ID None has connected to Gateway (Session ID: bb691dd3fcfebf4b0fe3681a01fb4da7).
+2025-01-28 15:30:13,034 - INFO - Successfully loaded cog: cat
+2025-01-28 15:30:13,034 - INFO - Successfully loaded cog: bat
+2025-01-28 15:30:13,334 - INFO - Slash commands synced.
+2025-01-28 15:30:18,050 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:30:18,051 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:30:19,961 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:30:19,970 - INFO - Battery percentage fetched: 34%
+2025-01-28 15:30:19,971 - INFO - Bot status updated with new battery percentage.
+2025-01-28 15:31:24,996 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:31:24,997 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:31:27,025 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:31:27,034 - INFO - Battery percentage fetched: 34%
+2025-01-28 15:31:27,034 - INFO - Bot status updated with new battery percentage.
+2025-01-28 15:31:53,148 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-28 15:31:53,152 - INFO - logging in using static token
+2025-01-28 15:31:54,897 - INFO - Shard ID None has connected to Gateway (Session ID: 2ae4cf5c2f0c9a5b5398f785a66a0c0f).
+2025-01-28 15:31:57,255 - INFO - Successfully loaded cog: cat
+2025-01-28 15:31:57,256 - INFO - Successfully loaded cog: bat
+2025-01-28 15:31:57,256 - INFO - Successfully loaded cog: vibrate
+2025-01-28 15:31:57,679 - INFO - Slash commands synced.
+2025-01-28 15:32:02,264 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:32:02,264 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:32:04,243 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:32:04,251 - INFO - Battery percentage fetched: 34%
+2025-01-28 15:32:04,252 - INFO - Bot status updated with new battery percentage.
+2025-01-28 15:32:15,410 - INFO - Sending POST request to Flask API with duration: 2
+2025-01-28 15:32:17,196 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:32:17,828 - ERROR - Ignoring exception in command 'vibrate'
+Traceback (most recent call last):
+  File "c:\Users\hofme\OneDrive\Documents\VS_code\Termux_bot_v1.0\cogs\vibrate.py", line 26, in vibrate_command
+    await interaction.followup.send(f"Vibrate command sent successfully for {duration} seconds.")
+  File "C:\Python\Python3\Lib\site-packages\discord\webhook\async_.py", line 1843, in send
+    data = await adapter.execute_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python3\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10015): Unknown Webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\Python3\Lib\site-packages\discord\app_commands\commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hofme\OneDrive\Documents\VS_code\Termux_bot_v1.0\cogs\vibrate.py", line 31, in vibrate_command
+    await interaction.followup.send(f"An error occurred while sending vibrate command: {e}")
+  File "C:\Python\Python3\Lib\site-packages\discord\webhook\async_.py", line 1843, in send
+    data = await adapter.execute_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python3\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10015): Unknown Webhook
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python\Python3\Lib\site-packages\discord\app_commands\tree.py", line 1310, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Python\Python3\Lib\site-packages\discord\app_commands\commands.py", line 883, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python3\Lib\site-packages\discord\app_commands\commands.py", line 876, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'vibrate' raised an exception: NotFound: 404 Not Found (error code: 10015): Unknown Webhook
+2025-01-28 15:33:25,898 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-28 15:33:25,903 - INFO - logging in using static token
+2025-01-28 15:33:27,472 - INFO - Shard ID None has connected to Gateway (Session ID: 24af3425e6e0de2a220b46e44c2cb013).
+2025-01-28 15:33:29,840 - INFO - Successfully loaded cog: cat
+2025-01-28 15:33:29,841 - INFO - Successfully loaded cog: bat
+2025-01-28 15:33:29,842 - ERROR - Failed to load cog: vibrate | ERROR: vibrate.__init__() takes 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "c:\Users\hofme\OneDrive\Documents\VS_code\Termux_bot_v1.0\main.py", line 54, in on_ready
+    await self.add_cog(cogClass(self, currentDir))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: vibrate.__init__() takes 2 positional arguments but 3 were given
+2025-01-28 15:33:30,245 - INFO - Slash commands synced.
+2025-01-28 15:33:34,864 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:33:34,865 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:33:36,718 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:33:36,727 - INFO - Battery percentage fetched: 34%
+2025-01-28 15:33:36,728 - INFO - Bot status updated with new battery percentage.
+2025-01-28 15:34:33,506 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-28 15:34:33,509 - INFO - logging in using static token
+2025-01-28 15:34:35,071 - INFO - Shard ID None has connected to Gateway (Session ID: 4c80edfee7721e8a1a3eb1304abdb5c8).
+2025-01-28 15:34:37,426 - INFO - Successfully loaded cog: cat
+2025-01-28 15:34:37,427 - INFO - Successfully loaded cog: bat
+2025-01-28 15:34:37,428 - INFO - Successfully loaded cog: vibrate
+2025-01-28 15:34:37,863 - INFO - Slash commands synced.
+2025-01-28 15:34:42,431 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:34:42,432 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:34:44,034 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:34:44,044 - INFO - Battery percentage fetched: 35%
+2025-01-28 15:34:44,045 - INFO - Bot status updated with new battery percentage.
+2025-01-28 15:35:04,923 - INFO - Sending POST request to Flask API with duration: 2
+2025-01-28 15:35:07,008 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:35:07,675 - ERROR - Ignoring exception in command 'vibrate'
+Traceback (most recent call last):
+  File "c:\Users\hofme\OneDrive\Documents\VS_code\Termux_bot_v1.0\cogs\vibrate.py", line 26, in vibrate_command
+    await interaction.followup.send(f"Vibrate command sent successfully for {duration} seconds.")
+  File "C:\Python\Python3\Lib\site-packages\discord\webhook\async_.py", line 1843, in send
+    data = await adapter.execute_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python3\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10015): Unknown Webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\Python3\Lib\site-packages\discord\app_commands\commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hofme\OneDrive\Documents\VS_code\Termux_bot_v1.0\cogs\vibrate.py", line 35, in vibrate_command
+    await interaction.followup.send(f"An error occurred while sending vibrate command: {e}")
+  File "C:\Python\Python3\Lib\site-packages\discord\webhook\async_.py", line 1843, in send
+    data = await adapter.execute_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python3\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10015): Unknown Webhook
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python\Python3\Lib\site-packages\discord\app_commands\tree.py", line 1310, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Python\Python3\Lib\site-packages\discord\app_commands\commands.py", line 883, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python3\Lib\site-packages\discord\app_commands\commands.py", line 876, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'vibrate' raised an exception: NotFound: 404 Not Found (error code: 10015): Unknown Webhook
+2025-01-28 15:36:08,003 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-28 15:36:08,007 - INFO - logging in using static token
+2025-01-28 15:36:09,495 - INFO - Shard ID None has connected to Gateway (Session ID: 52fcaddddc9ddb71ea78a8a9a260b364).
+2025-01-28 15:36:11,847 - INFO - Successfully loaded cog: cat
+2025-01-28 15:36:11,848 - INFO - Successfully loaded cog: bat
+2025-01-28 15:36:11,849 - INFO - Successfully loaded cog: vibrate
+2025-01-28 15:36:12,229 - INFO - Slash commands synced.
+2025-01-28 15:36:15,809 - INFO - Sending POST request to Flask API with duration: 2
+2025-01-28 15:36:16,845 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:36:16,845 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:36:18,392 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:36:19,011 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:36:19,020 - INFO - Battery percentage fetched: 35%
+2025-01-28 15:36:19,021 - INFO - Bot status updated with new battery percentage.
+2025-01-28 15:36:19,059 - ERROR - Ignoring exception in command 'vibrate'
+Traceback (most recent call last):
+  File "c:\Users\hofme\OneDrive\Documents\VS_code\Termux_bot_v1.0\cogs\vibrate.py", line 26, in vibrate_command
+    await interaction.followup.send(f"Vibrate command sent successfully for {duration} seconds.")
+  File "C:\Python\Python3\Lib\site-packages\discord\webhook\async_.py", line 1843, in send
+    data = await adapter.execute_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python3\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10015): Unknown Webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\Python3\Lib\site-packages\discord\app_commands\commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hofme\OneDrive\Documents\VS_code\Termux_bot_v1.0\cogs\vibrate.py", line 32, in vibrate_command
+    await interaction.followup.send("Failed to send vibrate command. Webhook not found.")
+  File "C:\Python\Python3\Lib\site-packages\discord\webhook\async_.py", line 1843, in send
+    data = await adapter.execute_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python3\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10015): Unknown Webhook
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python\Python3\Lib\site-packages\discord\app_commands\tree.py", line 1310, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Python\Python3\Lib\site-packages\discord\app_commands\commands.py", line 883, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python3\Lib\site-packages\discord\app_commands\commands.py", line 876, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'vibrate' raised an exception: NotFound: 404 Not Found (error code: 10015): Unknown Webhook
+2025-01-28 15:37:58,826 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-28 15:37:58,832 - INFO - logging in using static token
+2025-01-28 15:38:00,299 - INFO - Shard ID None has connected to Gateway (Session ID: 5e17d9e6f949435bb78f5229172a7e8b).
+2025-01-28 15:38:02,641 - INFO - Successfully loaded cog: cat
+2025-01-28 15:38:02,642 - INFO - Successfully loaded cog: bat
+2025-01-28 15:38:02,643 - INFO - Successfully loaded cog: vibrate
+2025-01-28 15:38:03,074 - INFO - Slash commands synced.
+2025-01-28 15:38:07,668 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:38:07,669 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:38:09,595 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:38:09,606 - INFO - Battery percentage fetched: 35%
+2025-01-28 15:38:09,607 - INFO - Bot status updated with new battery percentage.
+2025-01-28 15:38:14,285 - INFO - Sending POST request to Flask API with duration: 2
+2025-01-28 15:38:16,083 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:38:16,804 - ERROR - Ignoring exception in command 'vibrate'
+Traceback (most recent call last):
+  File "c:\Users\hofme\OneDrive\Documents\VS_code\Termux_bot_v1.0\cogs\vibrate.py", line 27, in vibrate_command
+    await interaction.followup.send(f"Vibrate command sent successfully for {duration} seconds.")
+  File "C:\Python\Python3\Lib\site-packages\discord\webhook\async_.py", line 1843, in send
+    data = await adapter.execute_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python3\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10015): Unknown Webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\Python3\Lib\site-packages\discord\app_commands\commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hofme\OneDrive\Documents\VS_code\Termux_bot_v1.0\cogs\vibrate.py", line 33, in vibrate_command
+    await interaction.followup.send("Failed to send vibrate command. Webhook not found.")
+  File "C:\Python\Python3\Lib\site-packages\discord\webhook\async_.py", line 1843, in send
+    data = await adapter.execute_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python3\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10015): Unknown Webhook
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python\Python3\Lib\site-packages\discord\app_commands\tree.py", line 1310, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Python\Python3\Lib\site-packages\discord\app_commands\commands.py", line 883, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python3\Lib\site-packages\discord\app_commands\commands.py", line 876, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'vibrate' raised an exception: NotFound: 404 Not Found (error code: 10015): Unknown Webhook
+2025-01-28 15:40:20,222 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-28 15:40:20,226 - INFO - logging in using static token
+2025-01-28 15:40:21,752 - INFO - Shard ID None has connected to Gateway (Session ID: 3663db27595b64f1cf38636ab08b464f).
+2025-01-28 15:40:24,123 - INFO - Successfully loaded cog: cat
+2025-01-28 15:40:24,125 - INFO - Successfully loaded cog: bat
+2025-01-28 15:40:24,125 - INFO - Successfully loaded cog: vibrate
+2025-01-28 15:40:24,628 - INFO - Slash commands synced.
+2025-01-28 15:40:29,147 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:40:29,148 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:40:31,194 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:40:31,203 - INFO - Battery percentage fetched: 36%
+2025-01-28 15:40:31,205 - INFO - Bot status updated with new battery percentage.
+2025-01-28 15:40:39,300 - INFO - Sending POST request to Flask API with duration: 2
+2025-01-28 15:40:41,313 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:40:41,960 - ERROR - Ignoring exception in command 'vibrate'
+Traceback (most recent call last):
+  File "c:\Users\hofme\OneDrive\Documents\VS_code\Termux_bot_v1.0\cogs\vibrate.py", line 28, in vibrate_command
+    await interaction.followup.send(f"Vibrate command sent successfully for {duration} seconds.")
+  File "C:\Python\Python3\Lib\site-packages\discord\webhook\async_.py", line 1843, in send
+    data = await adapter.execute_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python3\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10015): Unknown Webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\Python3\Lib\site-packages\discord\app_commands\commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hofme\OneDrive\Documents\VS_code\Termux_bot_v1.0\cogs\vibrate.py", line 34, in vibrate_command
+    await interaction.followup.send("Failed to send vibrate command. Webhook not found.")
+  File "C:\Python\Python3\Lib\site-packages\discord\webhook\async_.py", line 1843, in send
+    data = await adapter.execute_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python3\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10015): Unknown Webhook
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python\Python3\Lib\site-packages\discord\app_commands\tree.py", line 1310, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Python\Python3\Lib\site-packages\discord\app_commands\commands.py", line 883, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python3\Lib\site-packages\discord\app_commands\commands.py", line 876, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'vibrate' raised an exception: NotFound: 404 Not Found (error code: 10015): Unknown Webhook
+2025-01-28 15:41:36,227 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:41:36,227 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:41:38,247 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:41:38,259 - INFO - Battery percentage fetched: 36%
+2025-01-28 15:41:38,260 - INFO - Bot status updated with new battery percentage.
+2025-01-28 15:42:43,277 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:42:43,277 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:42:45,129 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:42:45,138 - INFO - Battery percentage fetched: 36%
+2025-01-28 15:42:45,138 - INFO - Bot status updated with new battery percentage.
+2025-01-28 15:43:41,229 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-28 15:43:41,232 - INFO - logging in using static token
+2025-01-28 15:43:42,652 - INFO - Shard ID None has connected to Gateway (Session ID: 96a60b718950cf6a3239ba06239dcd23).
+2025-01-28 15:43:45,041 - INFO - Successfully loaded cog: cat
+2025-01-28 15:43:45,041 - INFO - Successfully loaded cog: bat
+2025-01-28 15:43:45,042 - INFO - Successfully loaded cog: vibrate
+2025-01-28 15:43:45,417 - INFO - Slash commands synced.
+2025-01-28 15:43:50,048 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:43:50,049 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:43:52,736 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:43:52,746 - INFO - Battery percentage fetched: 36%
+2025-01-28 15:43:52,747 - INFO - Bot status updated with new battery percentage.
+2025-01-28 15:43:59,068 - INFO - Sending POST request to Flask API with duration: 2
+2025-01-28 15:44:00,868 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:44:18,663 - INFO - Sending POST request to Flask API with duration: 2
+2025-01-28 15:44:20,761 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:44:57,770 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:44:57,770 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:45:00,198 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:45:00,208 - INFO - Battery percentage fetched: 36%
+2025-01-28 15:45:00,209 - INFO - Bot status updated with new battery percentage.
+2025-01-28 15:46:05,228 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:46:05,228 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:46:07,433 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:46:12,448 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:46:12,448 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:46:14,805 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:46:19,816 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:46:19,816 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:46:22,179 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:46:27,193 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:46:27,194 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:46:31,459 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:46:31,470 - INFO - Battery percentage fetched: 37%
+2025-01-28 15:46:31,471 - INFO - Bot status updated with new battery percentage.
+2025-01-28 15:46:39,833 - INFO - Sending POST request to Flask API with duration: 2
+2025-01-28 15:46:41,757 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:46:54,757 - INFO - Sending POST request to Flask API with duration: 2
+2025-01-28 15:46:56,684 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:47:36,474 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:47:36,474 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:47:38,395 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:47:38,404 - INFO - Battery percentage fetched: 37%
+2025-01-28 15:47:38,405 - INFO - Bot status updated with new battery percentage.
+2025-01-28 15:48:43,443 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:48:43,443 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:48:45,282 - INFO - Received response from Flask API. Status: 200
+2025-01-28 15:48:45,290 - INFO - Battery percentage fetched: 37%
+2025-01-28 15:48:45,291 - INFO - Bot status updated with new battery percentage.
+2025-01-28 15:49:50,312 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:49:50,312 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:49:52,814 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:49:57,813 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:49:57,814 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:50:00,597 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:50:05,609 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:50:05,611 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:50:08,790 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:50:13,794 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:50:13,794 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:50:16,572 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:50:21,584 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:50:21,585 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:50:24,352 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:50:29,358 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:50:29,358 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:50:32,340 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:50:37,352 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:50:37,352 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:50:40,020 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:50:45,027 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:50:45,028 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:50:47,187 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:50:52,200 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:50:52,200 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:50:54,460 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:50:59,465 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:50:59,465 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:51:01,831 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:51:06,836 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:51:06,836 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:51:09,291 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:51:14,296 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:51:14,296 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:51:16,781 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:51:21,793 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:51:21,793 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:51:24,256 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:51:29,266 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:51:29,266 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:51:31,631 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:51:36,634 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:51:36,634 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:51:38,844 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:51:43,851 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:51:43,851 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:51:46,272 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:51:51,289 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:51:51,289 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:51:53,645 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:51:58,655 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:51:58,655 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:52:01,017 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:52:06,021 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:52:06,021 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:52:08,287 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:52:13,302 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:52:13,302 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:52:15,764 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:52:20,769 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:52:20,769 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:52:23,135 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:52:28,143 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:52:28,143 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:52:30,712 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:52:35,725 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:52:35,725 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:52:38,086 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:52:43,093 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:52:43,093 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:52:45,254 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:52:50,257 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:52:50,257 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:52:52,627 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:52:57,631 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:52:57,632 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:52:59,795 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:53:04,802 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:53:04,802 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:53:06,964 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:53:11,965 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:53:11,965 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:53:14,337 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:53:19,348 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:53:19,348 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:53:21,706 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:53:26,711 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:53:26,711 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:53:29,081 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:53:34,086 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:53:34,086 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:53:36,147 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:53:41,152 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:53:41,152 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:53:43,520 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:53:48,529 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:53:48,529 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:53:50,897 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:53:55,901 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:53:55,901 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:53:58,370 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:54:03,373 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:54:03,373 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:54:05,525 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:54:10,533 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:54:10,533 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:54:13,011 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:54:18,015 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:54:18,015 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:54:20,383 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:54:25,397 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:54:25,397 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:54:27,961 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:54:32,976 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:54:32,976 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:54:35,333 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:54:40,338 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:54:40,338 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:54:42,705 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:54:47,718 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:54:47,718 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:54:50,082 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:54:55,085 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:54:55,085 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:54:57,250 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:55:02,262 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:55:02,262 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:55:04,514 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:55:09,527 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:55:09,527 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:55:11,569 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:55:16,579 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:55:16,579 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:55:18,767 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:55:23,789 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:55:23,789 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:55:26,017 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:55:31,022 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:55:31,022 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:55:33,054 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:55:38,060 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:55:38,060 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:55:40,560 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:55:45,568 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:55:45,568 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:55:47,832 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:55:52,834 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:55:52,834 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:55:54,896 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:55:59,905 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:55:59,905 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:56:02,372 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:56:07,379 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:56:07,379 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:56:09,643 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:56:14,650 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:56:14,651 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:56:16,915 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:56:21,927 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:56:21,927 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:56:24,287 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:56:29,296 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:56:29,297 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:56:31,760 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:56:36,774 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:56:36,775 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:56:39,236 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:56:44,246 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:56:44,246 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:56:46,711 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:56:51,725 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:56:51,726 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:56:54,188 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:56:59,201 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:56:59,201 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:57:05,247 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:57:10,249 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:57:10,249 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:57:12,516 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:57:17,522 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:57:17,522 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:57:19,990 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:57:24,998 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:57:24,998 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:57:27,366 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:57:32,378 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:57:32,378 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:57:34,942 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:57:39,952 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:57:39,952 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:57:42,212 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:57:47,217 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:57:47,217 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:57:49,586 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:57:54,599 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:57:54,599 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:57:57,165 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:58:02,177 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:58:02,177 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:58:04,946 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
+2025-01-28 15:58:09,949 - INFO - Bot connected to Discord, starting battery status update loop.
+2025-01-28 15:58:09,950 - INFO - Sending request to Flask API for battery status.
+2025-01-28 15:58:12,627 - ERROR - An error occurred while updating bot status: Cannot connect to host 10.0.0.157:5000 ssl:default [The remote computer refused the network connection]
