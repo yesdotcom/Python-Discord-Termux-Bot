@@ -4,3 +4,4 @@ discord
 discord.py
 pip
 python-dotenv
+tracemalloc
